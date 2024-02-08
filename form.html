@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Database-Driven Web Application - Form Elements</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/form.css">
+    <img src="amazon.jpeg" alt="logo">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form Elements</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Explore Form Elements</h1>
+        <p>Discover various input elements and their functionality.</p>
+    </header>
+
+    <main>
+        <section class="form-elements">
+            <h2>Form Elements Showcase:</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label>Choose your interests:</label>
+                <input type="checkbox" id="interest1" name="interest1" value="sports">
+                <label for="interest1">Sports</label>
+                <input type="checkbox" id="interest2" name="interest2" value="music">
+                <label for="interest2">Music</label>
+                <input type="checkbox" id="interest3" name="interest3" value="books">
+                <label for="interest3">Books</label>
+                
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amazon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
